@@ -1,0 +1,55 @@
+ul {
+    list-style: none;
+    padding-left: 20px;
+    margin: 10px 100px 10px 100px;
+    list-style-image: url(unchecked_16.png);
+    list-style-position: inside;
+   
+}
+.color:nth-child(odd) {
+    background-color: rgb(24, 180, 237);
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.color:nth-child(even) {
+    background-color: aqua;
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+.color.one {
+    background-color: blanchedalmond;
+    text-decoration: line-through;
+    list-style: none;
+    list-style-image: url(checked_16.png);
+    list-style-position: inside;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+
+.top::after {
+    content: ' ';
+    background-image: url(35.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 9px;
+    height: 9px;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+h1 {
+
+    margin-left: 115px;
+    
+}
